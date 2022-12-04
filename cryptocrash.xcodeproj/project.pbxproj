@@ -16,6 +16,7 @@
 		5228BC092928543000014222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC072928543000014222 /* LaunchScreen.storyboard */; };
 		5228BC112928548100014222 /* APIHelper in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC102928548100014222 /* APIHelper */; };
 		5228BC13292854A100014222 /* Class in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC12292854A100014222 /* Class */; };
+		930B457B293C704400F1F760 /* Main Crypto Bank View in Resources */ = {isa = PBXBuildFile; fileRef = 930B457A293C704400F1F760 /* Main Crypto Bank View */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5228BC0A2928543000014222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5228BC102928548100014222 /* APIHelper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APIHelper; sourceTree = "<group>"; };
 		5228BC12292854A100014222 /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Class; sourceTree = "<group>"; };
+		930B457A293C704400F1F760 /* Main Crypto Bank View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Main Crypto Bank View"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		5228BBF82928542C00014222 /* cryptocrash */ = {
 			isa = PBXGroup;
 			children = (
+				930B457A293C704400F1F760 /* Main Crypto Bank View */,
 				5228BC12292854A100014222 /* Class */,
 				5228BC102928548100014222 /* APIHelper */,
 				5228BBF92928542C00014222 /* AppDelegate.swift */,
@@ -136,6 +139,7 @@
 			files = (
 				5228BC092928543000014222 /* LaunchScreen.storyboard in Resources */,
 				5228BC062928543000014222 /* Assets.xcassets in Resources */,
+				930B457B293C704400F1F760 /* Main Crypto Bank View in Resources */,
 				5228BC13292854A100014222 /* Class in Resources */,
 				5228BC012928542C00014222 /* Main.storyboard in Resources */,
 				5228BC112928548100014222 /* APIHelper in Resources */,
