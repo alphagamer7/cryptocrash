@@ -17,6 +17,9 @@
 		5228BC112928548100014222 /* APIHelper in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC102928548100014222 /* APIHelper */; };
 		5228BC13292854A100014222 /* Class in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC12292854A100014222 /* Class */; };
 		527B61B129469CA100AE3F9B /* Function in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B029469CA100AE3F9B /* Function */; };
+		527B61B529469DB100AE3F9B /* Main Crypto Bank View in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B229469DB000AE3F9B /* Main Crypto Bank View */; };
+		527B61B629469DB100AE3F9B /* News view in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B329469DB100AE3F9B /* News view */; };
+		527B61B729469DB100AE3F9B /* My List View in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B429469DB100AE3F9B /* My List View */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		5228BC102928548100014222 /* APIHelper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APIHelper; sourceTree = "<group>"; };
 		5228BC12292854A100014222 /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Class; sourceTree = "<group>"; };
 		527B61B029469CA100AE3F9B /* Function */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Function; sourceTree = "<group>"; };
+		527B61B229469DB000AE3F9B /* Main Crypto Bank View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Main Crypto Bank View"; sourceTree = "<group>"; };
+		527B61B329469DB100AE3F9B /* News view */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "News view"; sourceTree = "<group>"; };
+		527B61B429469DB100AE3F9B /* My List View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "My List View"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 		5228BBF82928542C00014222 /* cryptocrash */ = {
 			isa = PBXGroup;
 			children = (
+				527B61B229469DB000AE3F9B /* Main Crypto Bank View */,
+				527B61B429469DB100AE3F9B /* My List View */,
+				527B61B329469DB100AE3F9B /* News view */,
 				527B61B029469CA100AE3F9B /* Function */,
 				5228BC12292854A100014222 /* Class */,
 				5228BC102928548100014222 /* APIHelper */,
@@ -138,11 +147,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5228BC092928543000014222 /* LaunchScreen.storyboard in Resources */,
+				527B61B629469DB100AE3F9B /* News view in Resources */,
 				5228BC062928543000014222 /* Assets.xcassets in Resources */,
+				527B61B529469DB100AE3F9B /* Main Crypto Bank View in Resources */,
 				527B61B129469CA100AE3F9B /* Function in Resources */,
 				5228BC13292854A100014222 /* Class in Resources */,
 				5228BC012928542C00014222 /* Main.storyboard in Resources */,
 				5228BC112928548100014222 /* APIHelper in Resources */,
+				527B61B729469DB100AE3F9B /* My List View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

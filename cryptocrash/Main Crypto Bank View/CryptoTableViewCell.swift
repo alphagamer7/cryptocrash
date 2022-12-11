@@ -1,8 +1,8 @@
 //
 //  CryptoTableViewCell.swift
-//  Crypto Bank
+//  cryptocrash
 //
-//  Created by Divya Khemani on 2022-12-04.
+//  Created by Athif on 2022-11-18.
 //
 
 import UIKit
