@@ -12,8 +12,8 @@ enum FetchResult{
 }
 
 struct NewsAPIHelper{
-    private static var baseURL : String = "https://newsapi.org/v2/everything?q=cryptocurrency&apiKey=D08d6b3c579542f0abbae1f6a3c3949a"
-    //private static var apiKey: String = "&apiKey=D08d6b3c579542f0abbae1f6a3c3949a"
+    private static var baseURL : String = "https://newsapi.org/v2/everything?q=cryptocurrency&apiKey=c335e85f1a8d4565a9f03b25186167df"
+    //https://newsapi.org Added API from following url
     private static var session: URLSession = {
         let config = URLSessionConfiguration.default
         return URLSession(configuration: config)
