@@ -1,8 +1,8 @@
 //
 //  CoreDataFetch.swift
-//  cryptocrash
+//  Crypto Bank
 //
-//  Created by Athif on 2022/12/01.
+//  Created by Yujia on 2022/4/25.
 //
 
 import Foundation
@@ -13,7 +13,7 @@ class CoreDataFetch : NSObject{
     func addData (name: String, img: String, price: String, high: String, low: String, date: String){
         guard let appdelegate = UIApplication.shared.delegate as? AppDelegate
         else {return}
-
+    
         let viewContext = appdelegate.persistentContainer.viewContext
         //set entity and set value types to be saved in the setting manner
         if let cryptoEntity = NSEntityDescription.entity(forEntityName: "Cryptos", in: viewContext){

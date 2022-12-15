@@ -49,29 +49,29 @@ class DetailViewController: UIViewController {
         }
         
         //fetch history crypto data and calculate daily high and low
-        DetailCryptoAPIHelper.fetch( query: cryptoId){ newArray in
-            self.newArray = newArray
-            let someDict:[String: Any] = newArray[0] as! [String : Any]
-            
-            let price_open = NSDecimalNumber(decimal: (someDict["price_open"] as! NSNumber).decimalValue)
-       
-            let price_high = NSDecimalNumber(decimal: (someDict["price_high"] as! NSNumber).decimalValue)
-            let price_low = NSDecimalNumber(decimal: (someDict["price_low"] as! NSNumber).decimalValue)
-            let volume_traded = NSDecimalNumber(decimal: (someDict["volume_traded"] as! NSNumber).decimalValue)
-            
-            //do calculation
-            let higher: String = calculateToString(num1: price_high, num2: price_open)
-            
-            let lower: String = calculateToString(num1: price_open, num2: price_low)
-            
-            //set stats
-            self.highSt.text = higher
-            self.lowSt.text = lower
-            self.volSt.text = NSDecimalToString(num1: volume_traded)
-            print("higher",higher)
-            print("lower", lower)
-            
-            }
+//        DetailCryptoAPIHelper.fetch( query: cryptoId){ newArray in
+//            self.newArray = newArray
+//            let someDict:[String: Any] = newArray[0] as! [String : Any]
+//
+//            let price_open = NSDecimalNumber(decimal: (someDict["price_open"] as! NSNumber).decimalValue)
+//
+//            let price_high = NSDecimalNumber(decimal: (someDict["price_high"] as! NSNumber).decimalValue)
+//            let price_low = NSDecimalNumber(decimal: (someDict["price_low"] as! NSNumber).decimalValue)
+//            let volume_traded = NSDecimalNumber(decimal: (someDict["volume_traded"] as! NSNumber).decimalValue)
+//
+//            //do calculation
+//            let higher: String = calculateToString(num1: price_high, num2: price_open)
+//
+//            let lower: String = calculateToString(num1: price_open, num2: price_low)
+//
+//            //set stats
+//            self.highSt.text = higher
+//            self.lowSt.text = lower
+//            self.volSt.text = NSDecimalToString(num1: volume_traded)
+//            print("higher",higher)
+//            print("lower", lower)
+//
+//            }
     }
     
 

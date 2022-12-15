@@ -1,8 +1,8 @@
 //
 //  NewsCollectionViewController.swift
-//  cryptocrash
+//  Crypto Bank
 //
-//  Created by Athif on 2022-11-18.
+//  Created by Yujia on 2022/4/21.
 //
 
 import UIKit
