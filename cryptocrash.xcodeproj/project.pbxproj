@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52038350294B03790057E13B /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203834E294B03790057E13B /* CryptoTableViewCell.swift */; };
+		52038351294B03790057E13B /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203834F294B03790057E13B /* CryptoTableViewController.swift */; };
 		5228BBFA2928542C00014222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228BBF92928542C00014222 /* AppDelegate.swift */; };
 		5228BBFC2928542C00014222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228BBFB2928542C00014222 /* SceneDelegate.swift */; };
-		5228BBFE2928542C00014222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228BBFD2928542C00014222 /* ViewController.swift */; };
 		5228BC012928542C00014222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5228BBFF2928542C00014222 /* Main.storyboard */; };
 		5228BC042928542D00014222 /* cryptocrash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5228BC022928542D00014222 /* cryptocrash.xcdatamodeld */; };
 		5228BC062928543000014222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC052928543000014222 /* Assets.xcassets */; };
@@ -17,16 +18,33 @@
 		5228BC112928548100014222 /* APIHelper in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC102928548100014222 /* APIHelper */; };
 		5228BC13292854A100014222 /* Class in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC12292854A100014222 /* Class */; };
 		527B61B129469CA100AE3F9B /* Function in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B029469CA100AE3F9B /* Function */; };
-		527B61B529469DB100AE3F9B /* Main Crypto Bank View in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B229469DB000AE3F9B /* Main Crypto Bank View */; };
 		527B61B629469DB100AE3F9B /* News view in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B329469DB100AE3F9B /* News view */; };
 		527B61B729469DB100AE3F9B /* My List View in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B429469DB100AE3F9B /* My List View */; };
+		5285235B294AFE9600A96797 /* MyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852359294AFE9600A96797 /* MyListTableViewCell.swift */; };
+		5285235C294AFE9600A96797 /* MyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285235A294AFE9600A96797 /* MyListTableViewController.swift */; };
+		5285235F294AFE9900A96797 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285235E294AFE9900A96797 /* DetailCollectionViewCell.swift */; };
+		52852360294AFE9900A96797 /* NewsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285235D294AFE9900A96797 /* NewsCollectionViewController.swift */; };
+		52852366294AFEA000A96797 /* CoreDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852364294AFEA000A96797 /* CoreDataFetch.swift */; };
+		52852367294AFEA000A96797 /* calculateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852363294AFEA000A96797 /* calculateToString.swift */; };
+		52852368294AFEA000A96797 /* DecimalToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852365294AFEA000A96797 /* DecimalToString.swift */; };
+		52852369294AFEA000A96797 /* getDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852362294AFEA000A96797 /* getDate.swift */; };
+		5285236A294AFEA000A96797 /* NSDecimalToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852361294AFEA000A96797 /* NSDecimalToString.swift */; };
+		52852370294AFEBE00A96797 /* DetailCryptoAPIHealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285236F294AFEBE00A96797 /* DetailCryptoAPIHealer.swift */; };
+		52852371294AFEBE00A96797 /* IconAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285236E294AFEBD00A96797 /* IconAPIHelper.swift */; };
+		52852372294AFEBE00A96797 /* NewsAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285236C294AFEBD00A96797 /* NewsAPIHelper.swift */; };
+		52852373294AFEBE00A96797 /* DetailCryptoAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285236D294AFEBD00A96797 /* DetailCryptoAPIHelper.swift */; };
+		52852374294AFEBE00A96797 /* ExchangeRateAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285236B294AFEBD00A96797 /* ExchangeRateAPIHelper.swift */; };
+		52852377294AFFC500A96797 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852375294AFFC400A96797 /* News.swift */; };
+		52852378294AFFC500A96797 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852376294AFFC500A96797 /* Crypto.swift */; };
+		5285237A294B009300A96797 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52852379294B009300A96797 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5203834E294B03790057E13B /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		5203834F294B03790057E13B /* CryptoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		5228BBF62928542C00014222 /* cryptocrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptocrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5228BBF92928542C00014222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5228BBFB2928542C00014222 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5228BBFD2928542C00014222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5228BC002928542C00014222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5228BC032928542D00014222 /* cryptocrash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cryptocrash.xcdatamodel; sourceTree = "<group>"; };
 		5228BC052928543000014222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,9 +53,25 @@
 		5228BC102928548100014222 /* APIHelper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APIHelper; sourceTree = "<group>"; };
 		5228BC12292854A100014222 /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Class; sourceTree = "<group>"; };
 		527B61B029469CA100AE3F9B /* Function */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Function; sourceTree = "<group>"; };
-		527B61B229469DB000AE3F9B /* Main Crypto Bank View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Main Crypto Bank View"; sourceTree = "<group>"; };
 		527B61B329469DB100AE3F9B /* News view */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "News view"; sourceTree = "<group>"; };
 		527B61B429469DB100AE3F9B /* My List View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "My List View"; sourceTree = "<group>"; };
+		52852359294AFE9600A96797 /* MyListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyListTableViewCell.swift; path = "cryptocrash/My List View/MyListTableViewCell.swift"; sourceTree = "<group>"; };
+		5285235A294AFE9600A96797 /* MyListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyListTableViewController.swift; path = "cryptocrash/My List View/MyListTableViewController.swift"; sourceTree = "<group>"; };
+		5285235D294AFE9900A96797 /* NewsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewsCollectionViewController.swift; path = "cryptocrash/News view/NewsCollectionViewController.swift"; sourceTree = "<group>"; };
+		5285235E294AFE9900A96797 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailCollectionViewCell.swift; path = "cryptocrash/News view/DetailCollectionViewCell.swift"; sourceTree = "<group>"; };
+		52852361294AFEA000A96797 /* NSDecimalToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NSDecimalToString.swift; path = cryptocrash/Function/NSDecimalToString.swift; sourceTree = "<group>"; };
+		52852362294AFEA000A96797 /* getDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = getDate.swift; path = cryptocrash/Function/getDate.swift; sourceTree = "<group>"; };
+		52852363294AFEA000A96797 /* calculateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = calculateToString.swift; path = cryptocrash/Function/calculateToString.swift; sourceTree = "<group>"; };
+		52852364294AFEA000A96797 /* CoreDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataFetch.swift; path = cryptocrash/Function/CoreDataFetch.swift; sourceTree = "<group>"; };
+		52852365294AFEA000A96797 /* DecimalToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DecimalToString.swift; path = cryptocrash/Function/DecimalToString.swift; sourceTree = "<group>"; };
+		5285236B294AFEBD00A96797 /* ExchangeRateAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExchangeRateAPIHelper.swift; path = cryptocrash/APIHelper/ExchangeRateAPIHelper.swift; sourceTree = "<group>"; };
+		5285236C294AFEBD00A96797 /* NewsAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewsAPIHelper.swift; path = cryptocrash/APIHelper/NewsAPIHelper.swift; sourceTree = "<group>"; };
+		5285236D294AFEBD00A96797 /* DetailCryptoAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailCryptoAPIHelper.swift; path = cryptocrash/APIHelper/DetailCryptoAPIHelper.swift; sourceTree = "<group>"; };
+		5285236E294AFEBD00A96797 /* IconAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconAPIHelper.swift; path = cryptocrash/APIHelper/IconAPIHelper.swift; sourceTree = "<group>"; };
+		5285236F294AFEBE00A96797 /* DetailCryptoAPIHealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCryptoAPIHealer.swift; sourceTree = "<group>"; };
+		52852375294AFFC400A96797 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		52852376294AFFC500A96797 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		52852379294B009300A96797 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,23 @@
 		5228BBED2928542C00014222 = {
 			isa = PBXGroup;
 			children = (
+				5285236F294AFEBE00A96797 /* DetailCryptoAPIHealer.swift */,
+				5285236D294AFEBD00A96797 /* DetailCryptoAPIHelper.swift */,
+				5285236B294AFEBD00A96797 /* ExchangeRateAPIHelper.swift */,
+				5285236E294AFEBD00A96797 /* IconAPIHelper.swift */,
+				5285236C294AFEBD00A96797 /* NewsAPIHelper.swift */,
+				52852363294AFEA000A96797 /* calculateToString.swift */,
+				52852364294AFEA000A96797 /* CoreDataFetch.swift */,
+				52852365294AFEA000A96797 /* DecimalToString.swift */,
+				52852362294AFEA000A96797 /* getDate.swift */,
+				52852361294AFEA000A96797 /* NSDecimalToString.swift */,
+				5285235E294AFE9900A96797 /* DetailCollectionViewCell.swift */,
+				52852376294AFFC500A96797 /* Crypto.swift */,
+				52852375294AFFC400A96797 /* News.swift */,
+				5285235D294AFE9900A96797 /* NewsCollectionViewController.swift */,
+				52852359294AFE9600A96797 /* MyListTableViewCell.swift */,
+				5285235A294AFE9600A96797 /* MyListTableViewController.swift */,
+				52852379294B009300A96797 /* DetailViewController.swift */,
 				5228BBF82928542C00014222 /* cryptocrash */,
 				5228BBF72928542C00014222 /* Products */,
 			);
@@ -70,7 +121,8 @@
 		5228BBF82928542C00014222 /* cryptocrash */ = {
 			isa = PBXGroup;
 			children = (
-				527B61B229469DB000AE3F9B /* Main Crypto Bank View */,
+				5203834E294B03790057E13B /* CryptoTableViewCell.swift */,
+				5203834F294B03790057E13B /* CryptoTableViewController.swift */,
 				527B61B429469DB100AE3F9B /* My List View */,
 				527B61B329469DB100AE3F9B /* News view */,
 				527B61B029469CA100AE3F9B /* Function */,
@@ -78,7 +130,6 @@
 				5228BC102928548100014222 /* APIHelper */,
 				5228BBF92928542C00014222 /* AppDelegate.swift */,
 				5228BBFB2928542C00014222 /* SceneDelegate.swift */,
-				5228BBFD2928542C00014222 /* ViewController.swift */,
 				5228BBFF2928542C00014222 /* Main.storyboard */,
 				5228BC052928543000014222 /* Assets.xcassets */,
 				5228BC072928543000014222 /* LaunchScreen.storyboard */,
@@ -149,7 +200,6 @@
 				5228BC092928543000014222 /* LaunchScreen.storyboard in Resources */,
 				527B61B629469DB100AE3F9B /* News view in Resources */,
 				5228BC062928543000014222 /* Assets.xcassets in Resources */,
-				527B61B529469DB100AE3F9B /* Main Crypto Bank View in Resources */,
 				527B61B129469CA100AE3F9B /* Function in Resources */,
 				5228BC13292854A100014222 /* Class in Resources */,
 				5228BC012928542C00014222 /* Main.storyboard in Resources */,
@@ -165,10 +215,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5228BBFE2928542C00014222 /* ViewController.swift in Sources */,
+				52852371294AFEBE00A96797 /* IconAPIHelper.swift in Sources */,
+				5285235B294AFE9600A96797 /* MyListTableViewCell.swift in Sources */,
+				52852367294AFEA000A96797 /* calculateToString.swift in Sources */,
+				52852373294AFEBE00A96797 /* DetailCryptoAPIHelper.swift in Sources */,
+				5285235C294AFE9600A96797 /* MyListTableViewController.swift in Sources */,
+				52852370294AFEBE00A96797 /* DetailCryptoAPIHealer.swift in Sources */,
+				52852378294AFFC500A96797 /* Crypto.swift in Sources */,
+				52852369294AFEA000A96797 /* getDate.swift in Sources */,
+				52852368294AFEA000A96797 /* DecimalToString.swift in Sources */,
+				52038350294B03790057E13B /* CryptoTableViewCell.swift in Sources */,
+				5285237A294B009300A96797 /* DetailViewController.swift in Sources */,
+				52852374294AFEBE00A96797 /* ExchangeRateAPIHelper.swift in Sources */,
 				5228BBFA2928542C00014222 /* AppDelegate.swift in Sources */,
+				52852372294AFEBE00A96797 /* NewsAPIHelper.swift in Sources */,
 				5228BC042928542D00014222 /* cryptocrash.xcdatamodeld in Sources */,
+				52852366294AFEA000A96797 /* CoreDataFetch.swift in Sources */,
+				52038351294B03790057E13B /* CryptoTableViewController.swift in Sources */,
+				5285236A294AFEA000A96797 /* NSDecimalToString.swift in Sources */,
 				5228BBFC2928542C00014222 /* SceneDelegate.swift in Sources */,
+				52852377294AFFC500A96797 /* News.swift in Sources */,
+				5285235F294AFE9900A96797 /* DetailCollectionViewCell.swift in Sources */,
+				52852360294AFE9900A96797 /* NewsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
