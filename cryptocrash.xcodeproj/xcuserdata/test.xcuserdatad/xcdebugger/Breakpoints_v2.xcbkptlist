@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8634B09F-97C2-4DEA-BEC2-6AFD63E0F802"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4CE55B0-093E-4AB7-B948-3FC6199A9B5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cryptocrash/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cryptocrash/Main Crypto Bank View/CryptoTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "CryptoTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68 - 346a99da9c9c1187"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cryptocrash.CryptoTableViewController.newArray2.getter : Swift.Array&lt;Any&gt;"
+                  moduleName = "cryptocrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Desktop/cryptocrash/cryptocrash/Main%20Crypto%20Bank%20View/CryptoTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68 - f99881f1cdead99b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cryptocrash.CryptoTableViewController.newArray2.setter : Swift.Array&lt;Any&gt;"
+                  moduleName = "cryptocrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Desktop/cryptocrash/cryptocrash/Main%20Crypto%20Bank%20View/CryptoTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68 - ff33c5bed5bd5388"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cryptocrash.CryptoTableViewController.newArray2.modify : Swift.Array&lt;Any&gt;"
+                  moduleName = "cryptocrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Desktop/cryptocrash/cryptocrash/Main%20Crypto%20Bank%20View/CryptoTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68 - 38413fe9f7f39474"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cryptocrash.CryptoTableViewController.newArray2.modify : Swift.Array&lt;Any&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "cryptocrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Desktop/cryptocrash/cryptocrash/Main%20Crypto%20Bank%20View/CryptoTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68 - 478ba3996041dbe4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cryptocrash.CryptoTableViewController.init(style: __C.UITableViewStyle) -&gt; cryptocrash.CryptoTableViewController"
+                  moduleName = "cryptocrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Desktop/cryptocrash/cryptocrash/Main%20Crypto%20Bank%20View/CryptoTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "1437">
+               </Location>
+               <Location
+                  uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68 - fba42f7fc00760e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cryptocrash.CryptoTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; cryptocrash.CryptoTableViewController"
+                  moduleName = "cryptocrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Desktop/cryptocrash/cryptocrash/Main%20Crypto%20Bank%20View/CryptoTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "1402">
+               </Location>
+               <Location
+                  uuid = "B32087A4-062D-4AB0-8AC3-50A0B20C5A68 - 3b742a1e6ab9ece2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cryptocrash.CryptoTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;cryptocrash.CryptoTableViewController&gt;"
+                  moduleName = "cryptocrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/test/Desktop/cryptocrash/cryptocrash/Main%20Crypto%20Bank%20View/CryptoTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "1350">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
