@@ -2,7 +2,7 @@
 //  CryptoTableViewCell.swift
 //  Crypto Bank
 //
-//  Created by Yujia on 2022/4/1.
+//  Created by Athif on 2022/11/18.
 //
 
 import UIKit

@@ -1,8 +1,8 @@
 //
 //  getDate.swift
-//  Crypto Bank
+//  cryptocrash
 //
-//  Created by Yujia on 2022/4/25.
+//  Created by Athif on 2022/11/18.
 //
 
 import Foundation

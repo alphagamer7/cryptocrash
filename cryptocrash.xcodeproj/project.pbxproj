@@ -16,7 +16,6 @@
 		5228BC062928543000014222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC052928543000014222 /* Assets.xcassets */; };
 		5228BC092928543000014222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC072928543000014222 /* LaunchScreen.storyboard */; };
 		5228BC112928548100014222 /* APIHelper in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC102928548100014222 /* APIHelper */; };
-		5228BC13292854A100014222 /* Class in Resources */ = {isa = PBXBuildFile; fileRef = 5228BC12292854A100014222 /* Class */; };
 		527B61B129469CA100AE3F9B /* Function in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B029469CA100AE3F9B /* Function */; };
 		527B61B629469DB100AE3F9B /* News view in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B329469DB100AE3F9B /* News view */; };
 		527B61B729469DB100AE3F9B /* My List View in Resources */ = {isa = PBXBuildFile; fileRef = 527B61B429469DB100AE3F9B /* My List View */; };
@@ -51,7 +50,6 @@
 		5228BC082928543000014222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5228BC0A2928543000014222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5228BC102928548100014222 /* APIHelper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APIHelper; sourceTree = "<group>"; };
-		5228BC12292854A100014222 /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Class; sourceTree = "<group>"; };
 		527B61B029469CA100AE3F9B /* Function */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Function; sourceTree = "<group>"; };
 		527B61B329469DB100AE3F9B /* News view */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "News view"; sourceTree = "<group>"; };
 		527B61B429469DB100AE3F9B /* My List View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "My List View"; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				527B61B429469DB100AE3F9B /* My List View */,
 				527B61B329469DB100AE3F9B /* News view */,
 				527B61B029469CA100AE3F9B /* Function */,
-				5228BC12292854A100014222 /* Class */,
 				5228BC102928548100014222 /* APIHelper */,
 				5228BBF92928542C00014222 /* AppDelegate.swift */,
 				5228BBFB2928542C00014222 /* SceneDelegate.swift */,
@@ -201,7 +198,6 @@
 				527B61B629469DB100AE3F9B /* News view in Resources */,
 				5228BC062928543000014222 /* Assets.xcassets in Resources */,
 				527B61B129469CA100AE3F9B /* Function in Resources */,
-				5228BC13292854A100014222 /* Class in Resources */,
 				5228BC012928542C00014222 /* Main.storyboard in Resources */,
 				5228BC112928548100014222 /* APIHelper in Resources */,
 				527B61B729469DB100AE3F9B /* My List View in Resources */,
