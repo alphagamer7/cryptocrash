@@ -13,6 +13,9 @@ Link for Video presentation: https://screencast-o-matic.com/watch/c3lDq8VvBrz
 - Retrieve data from news.org api and show in new tab
 - Cryptolist retrived from coinapi
 - Saving coin for view later in coredata
+
+# Minor issue
+- File reference had issues if not added to the root path, so as a temperory fix, we added to the home branch.
  
 
 # Screenshots
