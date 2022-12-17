@@ -31,7 +31,7 @@ struct ExchangeRateAPIHelper{
                     guard
                         let jsonDictionary2 = jsonObject2 as? Array<Any>
 
-                    else {preconditionFailure("could not parse JSOn data")}
+                    else {preconditionFailure("could not parse JSON data")}
                     
                     OperationQueue.main.addOperation {
                         callback(jsonDictionary2)
