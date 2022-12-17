@@ -20,6 +20,7 @@ Case study critireas
 - Core data- saving crypto coins to list 
 - Tab View - Currently having three tabs as listed on tab view.
 - Hardware: tap functionality done.
+- Used github pull request approach as described in checkin documentation.
 
 # Minor issue
 - File reference had issues if not added to the root path, so as a temperory fix, we added had to add the files to the root path.
