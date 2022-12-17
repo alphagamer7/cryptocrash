@@ -14,6 +14,7 @@ Link for Video presentation: https://screencast-o-matic.com/watch/c3lDq8VvBrz
 - Cryptolist retrived from coinapi
 - Saving coin for view later in coredata
 - Table view for listing coin details
+- Tabs for the three pages
 
 Case study critireas
 - Web services: done via news.org api and coin.api
