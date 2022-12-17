@@ -13,9 +13,16 @@ Link for Video presentation: https://screencast-o-matic.com/watch/c3lDq8VvBrz
 - Retrieve data from news.org api and show in new tab
 - Cryptolist retrived from coinapi
 - Saving coin for view later in coredata
+- Table view for listing coin details
+
+Case study critireas
+- Web services: done via news.org api and coin.api
+- Core data- saving crypto coins to list 
+- Tab View - Currently having three tabs as listed on tab view.
+- Hardware: tap functionality done.
 
 # Minor issue
-- File reference had issues if not added to the root path, so as a temperory fix, we added to the home branch.
+- File reference had issues if not added to the root path, so as a temperory fix, we added had to add the files to the root path.
  
 
 # Screenshots
