@@ -24,7 +24,7 @@ Case study critireas
 - Used github pull request approach as described in checkin documentation.
 
 # Minor issue
-- File reference had issues if not added to the root path, so as a temperory fix, we added had to add the files to the root path.
+- File reference had issues if not added to the root path, so as a temperory fix, we had to add the files to the root path.
  
 
 # Screenshots
